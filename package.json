@@ -1,0 +1,31 @@
+{
+  "name": "fe-starter",
+  "version": "0.0.1",
+  "description": "Frontend Starter",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "graphql": "^14.5.7",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.1",
+    "react": "^16.9.0",
+    "react-apollo": "^3.1.1",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "tslint": "^5.20.0",
+    "@types/react": "^16.9.2",
+    "@types/styled-components": "^4.1.19",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production  next start -p $PORT",
+    "lint": "tslint -p ./src/tsconfig.json -c tslint.json"
+  },
+  "author": "lkarcol",
+  "license": "ISC"
+}
