@@ -36,7 +36,7 @@ const PageContainer: React.FunctionComponent<Props> = ({ children }) => {
     return (
         <>
             <Head>
-                <title>CockFight Manager</title>
+                <title>FE Starter</title>
                 <meta
                     name='viewport'
                     content='initial-scale=1.0, width=device-width'
